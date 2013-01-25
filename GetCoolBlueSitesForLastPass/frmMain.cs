@@ -50,6 +50,8 @@ namespace GetCoolBlueSitesForLastPass
 
                 this.lblFoundResult.Text = string.Concat("Found ", listFoundUrls.Count, " sites");
 
+                listFoundUrls.Sort();
+
                 foreach (string s in listFoundUrls)
                 {
                     this.txtResult.Text += string.Concat(s.Trim(), ", ");
