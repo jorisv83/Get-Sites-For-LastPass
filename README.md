@@ -19,8 +19,8 @@ Screenshots
 
 A few screenshots of the program in action.
 
-*Before the run*
+*Before the run*  
 ![Before](https://raw.github.com/jorisv83/GetCoolBlueSitesForLastPass/master/Screenshots/start.png "Before run")
 
-*After it found some sites*
+*After it found some sites*  
 ![After run](https://raw.github.com/jorisv83/GetCoolBlueSitesForLastPass/master/Screenshots/after.run.png "It found some sites!")
