@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetCoolBlueSitesForLastPass", "GetCoolBlueSitesForLastPass\GetCoolBlueSitesForLastPass.csproj", "{914D0671-F61A-4AC6-80B4-92E90D6480BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSitesForLastPass", "GetSitesForLastPass\GetSitesForLastPass.csproj", "{914D0671-F61A-4AC6-80B4-92E90D6480BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
