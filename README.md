@@ -1,10 +1,17 @@
 Introduction
 ============
 
-This program will retrieve all the different shop URLs from the CoolBlue website and put them in a comma separated list.
+This program will retrieve all the different URLs from some websites and put them in a comma separated list.
 This list can be easily used in LastPass' "equivalent domains" settings.
 
-The result can also be viewed here: http://pastebin.com/SEfqTJ9d
+The result for the CoolBlue website can also be viewed here: http://pastebin.com/SEfqTJ9d
+
+Current websites include:
+-------------------------
+
+* CoolBlue
+* OpenDesktop
+* NexusMods
 
 Usage
 =====
@@ -20,7 +27,7 @@ Screenshots
 A few screenshots of the program in action.
 
 *Before the run*  
-![Before](https://raw.github.com/jorisv83/GetCoolBlueSitesForLastPass/master/Screenshots/start.png "Before run")
+![Before](https://raw.github.com/jorisv83/GetSitesForLastPass/master/Screenshots/start.png "Before run")
 
 *After it found some sites*  
-![After run](https://raw.github.com/jorisv83/GetCoolBlueSitesForLastPass/master/Screenshots/after.run.png "It found some sites!")
+![After run](https://raw.github.com/jorisv83/GetSitesForLastPass/master/Screenshots/after.run.png "It found some sites!")
