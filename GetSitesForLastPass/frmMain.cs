@@ -42,7 +42,7 @@ namespace GetSitesForLastPass
                 List<string> listFoundUrls = new List<string>();
                 bool bExtra = false;
 
-                ///Check which site is selected...                
+                //Check which site is selected...                
                 if (this.cbWebsiteURL.SelectedIndex == 0) //==> Get CoolBlue domains
                 {
                     GetCoolBlueSites(strHtmlCode, ref listFoundUrls);
