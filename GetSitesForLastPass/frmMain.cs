@@ -122,9 +122,9 @@ namespace GetSitesForLastPass
         /// <param name="listFoundUrls">The list of found URL's</param>
         private void GetCoolBlueSites(string strHtmlCode, ref List<string> listFoundUrls)
         {
-            string strRegex1 = ".*<a href=\"(.*)\" class=\"nopopup coolbluebar_shopcategory_shop_link\" title=\"(.*)\">.*";
-            string strRegex11 = ".*<a href=\"(.*)\" class=\"coolbluebar_shopcategory_shop_link display_block outline_none decoration_none\".*";
-            string strRegex2 = "a\\[.*=\".*\"\\],";
+            const string strRegex1 = ".*<a href=\"(.*)\" class=\"nopopup coolbluebar_shopcategory_shop_link\" title=\"(.*)\">.*";
+            const string strRegex11 = ".*<a href=\"(.*)\" class=\"coolbluebar_shopcategory_shop_link display_block outline_none decoration_none\".*";
+            const string strRegex2 = "a\\[.*=\".*\"\\],";
             string strFoundUrl = "";
 
             ExecuteRegexAndAddToList(strHtmlCode, strRegex1, ref listFoundUrls);
@@ -152,8 +152,8 @@ namespace GetSitesForLastPass
         /// <param name="listFoundUrls">The list of found URL's</param>
         private void GetOpenDesktopSites(string strHtmlCode, ref List<string> listFoundUrls)
         {
-            string strRegex1 = "&nbsp;<a href=\"(http.*)\">(.*)</a>.*<br />";
-            string strRegex2 = "<a class=\"maintopnaviopenpc\" href=\"(http.*)\">";
+            const string strRegex1 = "&nbsp;<a href=\"(http.*)\">(.*)</a>.*<br />";
+            const string strRegex2 = "<a class=\"maintopnaviopenpc\" href=\"(http.*)\">";
             string strFoundUrl = "";
 
             ExecuteRegexAndAddToList(strHtmlCode, strRegex1, ref listFoundUrls);
