@@ -210,7 +210,7 @@ namespace GetSitesForLastPass
                 .Replace("https://www.", "")
                 .Replace("https://", "")
                 .Replace(",", "")
-                .Trim();
+                .Trim('.').Trim();
         }
 
         /// <summary>
