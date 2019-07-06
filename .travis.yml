@@ -2,5 +2,3 @@ language: csharp
 solution: GetSitesForLastPass.sln
 mono:
   - latest
-script:
-  - dotnet restore
