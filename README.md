@@ -9,6 +9,10 @@ The result for the CoolBlue website can also be viewed here: http://pastebin.com
 Current build status
 ---------------------
 [![Build Status](https://travis-ci.org/ShiveringSquirrel/Get-Sites-For-LastPass.png)](https://travis-ci.org/ShiveringSquirrel/Get-Sites-For-LastPass)
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=ShiveringSquirrel_Get-Sites-For-LastPass&metric=alert_status)](https://sonarcloud.io/dashboard?id=ShiveringSquirrel_Get-Sites-For-LastPass) 
+ [![SonarCloud Coverage](https://sonarcloud.io/api/project_badges/measure?project=ShiveringSquirrel_Get-Sites-For-LastPass&metric=coverage)](https://sonarcloud.io/component_measures/metric/coverage/list?id=ShiveringSquirrel_Get-Sites-For-LastPass)
+ [![SonarCloud Bugs](https://sonarcloud.io/api/project_badges/measure?project=ShiveringSquirrel_Get-Sites-For-LastPass&metric=bugs)](https://sonarcloud.io/component_measures/metric/reliability_rating/list?id=ShiveringSquirrel_Get-Sites-For-LastPass)
+ [![SonarCloud Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ShiveringSquirrel_Get-Sites-For-LastPass&metric=vulnerabilities)](https://sonarcloud.io/component_measures/metric/security_rating/list?id=ShiveringSquirrel_Get-Sites-For-LastPass)
 
 Current websites include
 -------------------------
