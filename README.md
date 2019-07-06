@@ -6,7 +6,11 @@ This list can be easily used in LastPass' "equivalent domains" settings.
 
 The result for the CoolBlue website can also be viewed here: http://pastebin.com/SEfqTJ9d
 
-Current websites include:
+Current build status
+---------------------
+[![Build Status](https://travis-ci.org/ShiveringSquirrel/Get-Sites-For-LastPass.png)](https://travis-ci.org/ShiveringSquirrel/Get-Sites-For-LastPass)
+
+Current websites include
 -------------------------
 
 * CoolBlue
