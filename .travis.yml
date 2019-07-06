@@ -6,9 +6,7 @@ mono:
 addons:
   sonarcloud:
     organization: "shiveringsquirrel-github"
-    token: $SONAR_TOKEN
-    # token:
-    #  secure: "**************************" # encrypted value of your token
+    token:
+      secure: "js2/7BBg4/b5i9vaVI2Iw7hXfM/exh9xvWcRLGAsvD7ThqVPx+LyJD+mn9Z+71knQJx7Urbq7ctjJIImKkDEwELBUSbaDE/w6C/DN90ZOwtPQWc/uf+1H5z+tY4P/uBJbayIH6sGrU36p4hJczNZGTYedJtGMs+HmFoWRgGgPRblQPBrfxc+2Iw9XxfnfSP/0DvKeYMVDHskhFBMREvHT7EuWZvLO0rtfgbj6haw6Igd0SuLcCUJg5vqlVtOg0l/2HDCI8s4PDt3SNHVDNrLWWT6mQhi8mAcHrFliPzHCy9pBAfThDi1lNxqw9UaAZJc5rxqsKM2MZ//tsEk3359t09nG4UX7Dby+whMsyQ8y/qM73IGIsA+CCzmghdvdvSQgCyGPmTy4LpkOF8kwisnXK0He6Vi5rQrT4Shl/2WPrVGPafKuKffoJTjNSJYZ260rippuNaQyULBGM6DlGuENHGMRpT+ub9pPOBAuzx2pxZ7Bc55ykqzWvFeKmcFy6hXMerKUDh+dQTk91Y+D6YrXvFR30zUQW1aZmNx6H3vQofB4gv363kprFoiQCMWICW2R9aJaMLHkYP47TJmQ4ymxmReUEAkKxB6RskZbuX0hXlQi1ayI2saxOpro123I/IY+tgVUtJMhF+jlXCTZItJiRLJ/8Xhz9ZHXTBrOFC8D+w="
 script:
-  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
   - sonar-scanner -X
